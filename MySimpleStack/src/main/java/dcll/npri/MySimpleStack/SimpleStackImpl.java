@@ -3,6 +3,10 @@ package dcll.npri.MySimpleStack;
 import java.util.EmptyStackException;
 import java.util.Stack;
 
+/**
+ * @author Nathan
+ * repond a l'exigence 3
+ * */
 public class SimpleStackImpl implements SimpleStack {
 	Stack<Object> wrappedStack = new Stack <Object>();
 	
